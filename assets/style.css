@@ -59,17 +59,15 @@ li {
   float: left;
 }
 @keyframes slider {
-  40% {
-    left: -100%;
+  65% {
+    left: 0%;
   }
   70% {
     left: -100%;
   }
-  85% {
-    left: -200%;
-  }
+
   90% {
-    left: -200%;
+    left: -220%;
   }
   100% {
     left: 0%;
@@ -78,10 +76,17 @@ li {
 
 .second-part {
   grid-area: beauty-products;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center;
 }
 .third-part {
   grid-area: image-cool;
 }
 .fourth-part {
   grid-area: products-others;
+}
+.element-2 {
+  width: 300px;
 }
