@@ -32,6 +32,15 @@ ul {
 li {
   margin: 0px 20px 0px 20px;
 }
+.message-action {
+  width: 323px;
+  position: absolute;
+  text-align: center;
+  background-color: #f6f3f3;
+  top: 55%;
+  right: 90px;
+  transform: translateY(-50%);
+}
 .content {
   display: grid;
   grid-template-columns: 1fr;
@@ -89,4 +98,9 @@ li {
 }
 .element-2 {
   width: 300px;
+}
+.primary {
+  font-family: "Lora", serif;
+  text-align: center;
+  width: 400px;
 }
